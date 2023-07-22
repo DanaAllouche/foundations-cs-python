@@ -62,3 +62,28 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Exercise: 
+# a. 1/6N + 8000N^3 + 24
+# Big-O Notation: O(N^3)
+
+# b. 1/6N^3
+# Big-O Notation: O(N^3)
+
+# c. 1/6N! + 200N^4
+# Big-O Notation: O(N^4)
+
+# d. NlogN + 1000
+# Big-O Notation: O(NlogN)
+
+# e. logN + N
+# Big-O Notation: O(N)
+
+# f. 1/2N(N-1)
+# Big-O Notation: O(N^2)
+
+# g. N^2 + 220NlogN + 3N + 9000
+# Big-O Notation: O(N^2)
+
+# h. N! + 3N + 2N + N^3 + N^2
+# Big-O Notation: O(N!)
