@@ -63,7 +63,8 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Exercise: 
+# Big O Notation:
+
 # a. 1/6N + 8000N^3 + 24
 # Big-O Notation: O(N^3)
 
