@@ -24,20 +24,18 @@ def main():
         choice = input("Enter a choice: ")
 
         if choice == "1":
-            # Get user input for two tuples
             tup1 = tuple(map(int, input("Enter elements of tuple 1 separated by spaces: ").split()))
             tup2 = tuple(map(int, input("Enter elements of tuple 2 separated by spaces: ").split()))
 
-            # Check if the input tuples have the same length
             if len(tup1) != len(tup2):
-                print("Tuples must have the same length.")
+                print("Tuples must have same length.")
             else:
                 result = sum_tuples(tup1, tup2)
                 print("Result:", result)
 
         elif choice == "2":
             data_dict = {}
-            num_entries = int(input("Enter the number of entries in the dictionary: "))
+            num_entries = int(input("Enter the number of entries: "))
             for i in range(num_entries):
                 key = input(f"Enter key for entry {i + 1}: ")
                 value = input(f"Enter value for entry {i + 1}: ")
@@ -48,9 +46,9 @@ def main():
             print("Data exported to JSON successfully.")
 
         elif choice == "3":
-            filename = input("Enter the filename of the JSON file to import: ")
+            filename = input("Enter the filename of the JSON file : ")
             data_list = import_from_json(filename)
-            print("Data imported from JSON successfully.")
+            print("Data imported successfully.")
             print("List of dictionaries:", data_list)
 
         elif choice == "4":
